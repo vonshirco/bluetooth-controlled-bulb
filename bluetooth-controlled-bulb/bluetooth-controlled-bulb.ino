@@ -20,7 +20,7 @@ void setup() {
   BT.println("Hello from Arduino"); //Send test message to other device
 }
 
-
+char a; //stores incoming character from other device
 
 void loop() {
   // put your main code here, to run repeatedly:
