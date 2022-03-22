@@ -3,3 +3,6 @@ https://play.google.com/store/apps/details?id=com.giumig.apps.bluetoothserialmon
 
 How to configure your Android device to send commands to Arduino:
 
+Step-1: Open the app on your smartphone. It will ask for Bluetooth permissions. Click ‘Ok’.
+
+
