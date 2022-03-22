@@ -11,11 +11,11 @@ Bluetooth module GND to GND
 
 softwareSerial BT(10, 11);
 
-#define SW 2 //define pin 2 as control pin
+#define bulb 2 //define pin 2 as control pin
 
 void setup() {
   // put your setup code here, to run once:
-  pinMode(SW, OUTPUT); 
+  pinMode(bulb, OUTPUT); 
   BT.begin(9600); //Data rate for the softwareSerial port
   BT.println("Hello from Arduino"); //Send test message to other device
 }
@@ -28,12 +28,12 @@ void loop() {
     a = (BT.read());
     
     if (a == '1') {
-      digitalWrite(SW, LOW); //Turn Light ON
+      digitalWrite(bulb, LOW); //Turn Light ON
       BT.println("Light on");
     }
     
     if (a == '2') {
-      digitalWrite(SW, HIGH); //Turn OFF
+      digitalWrite(bulb, HIGH); //Turn OFF
       BT.println("Light off");
     }
     
