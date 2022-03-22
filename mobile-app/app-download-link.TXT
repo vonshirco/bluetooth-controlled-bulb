@@ -9,4 +9,6 @@ Step-2: Next, it will list all the available devices in your vicinity. Click on
 
 Step-3: Once you click on the device, you would be connected to the transceiver. It would now prompt you to enter the mode that you wish to use. Select “Switch” mode.
 
+Step-4: You should be redirected to the following screen. Click on the “Settings” tab in the top-right corner of the screen.
+
 
