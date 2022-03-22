@@ -1,1 +1,5 @@
+Link to the App:
 https://play.google.com/store/apps/details?id=com.giumig.apps.bluetoothserialmonitor
+
+How to configure your Android device to send commands to Arduino:
+
