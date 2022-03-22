@@ -7,4 +7,6 @@ Step-1: Open the app on your smartphone. It will ask for Bluetooth permissions.
 
 Step-2: Next, it will list all the available devices in your vicinity. Click on HC-05.
 
+Step-3: Once you click on the device, you would be connected to the transceiver. It would now prompt you to enter the mode that you wish to use. Select “Switch” mode.
+
 
