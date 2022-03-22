@@ -5,4 +5,6 @@ How to configure your Android device to send commands to Arduino:
 
 Step-1: Open the app on your smartphone. It will ask for Bluetooth permissions. Click ‘Ok’.
 
+Step-2: Next, it will list all the available devices in your vicinity. Click on HC-05.
+
 
