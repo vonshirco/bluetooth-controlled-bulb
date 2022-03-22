@@ -11,4 +11,8 @@ Step-3: Once you click on the device, you would be connected to the transceiver
 
 Step-4: You should be redirected to the following screen. Click on the “Settings” tab in the top-right corner of the screen.
 
+Step-5: It will ask you to set values for ON and OFF. Enter ‘1’ in the ON text box and ‘0’ in the OFF text box. Click Submit.
+
+And you are good to go.
+
 
