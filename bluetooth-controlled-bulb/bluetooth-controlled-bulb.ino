@@ -24,5 +24,24 @@ char a; //stores incoming character from other device
 
 void loop() {
   // put your main code here, to run repeatedly:
-
+  if (BT.available()) { //If text arrived in from BT serial
+    a = (BT.read());
+    
+    if (a == '1') {
+      digitalWrite(SW, LOW); //Turn Light ON
+      BT.println("Light on");
+    }
+    
+    if (a == '2') {
+      digitalWrite(SW, HIGH); //Turn OFF
+      BT.println("Light off");
+    }
+    
+    if (a == '?'){
+      BT.println("Send '1' to turn Light ON");
+      BT.println("Send '2' to turn Light OFF");
+    }
+    
+  }
+  
 }
